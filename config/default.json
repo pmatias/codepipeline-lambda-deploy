@@ -1,10 +1,10 @@
 {
-	"Region": "ap-northeast-1",
-  "Description": "test", 
+	"Region": "us-east-1",
+  "Description": "test from global config", 
   "FunctionName": "MyFunction", 
   "Handler": "index.handler",
   "MemorySize": 128, 
   "Publish": true, 
-  "Runtime": "nodejs4.3", 
+  "Runtime": "nodejs10.x", 
   "Timeout": 60
 }
